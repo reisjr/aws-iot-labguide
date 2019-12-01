@@ -9,4 +9,5 @@ disableToc: true
 note: change the url to match the new repo... using old repo as an example placeholder
 --->
 
-{{% ghcontributors "https://api.github.com/repos/reisjr/iot-projects/contributors?per_page=1000" %}}
+{{% ghcontributors "https://api.github.com/repos/reisjr/aws-iot-labguide/contributors?per_page=100" %}}
+
