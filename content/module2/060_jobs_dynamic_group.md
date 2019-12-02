@@ -31,30 +31,6 @@ Go back to the Cloud9 tab opened previously:
 
 
 
-<!-- 
-Open the AWS IoT Console, if it is not already opened:
-
-1. Type `iot core` on the **Find Services**
-2. Click on **IoT Core** result
-  ![OpenConsole](/images/020_mgmt_iot_console.png)
-Under the IoT Home page, on the left menu:
-3. Click **Thing Groups**
-4. Click **Create**
-  ![OpenConsole](/images/060_mgmt_dynamic1.png)
-5. Click **Create Dynamic Thing Group**
-  ![OpenConsole](/images/060_mgmt_dynamic2.png)
-6. Type `HighVibration` as **Name**
-7. Click **Next**
-  ![OpenConsole](/images/060_mgmt_dynamic3.png)
-8. Type `shadow.reported.vibration > 100` as **Define your group membership conditions**
-9. Click **Preview**
-    - This will return the devices which satisfied the query. (The devices shown here might differs from your query)
-10. Click **Create Dynamic Group**
-  ![OpenConsole](/images/060_mgmt_dynamic4.png)
-11. Wait it status to become **Active**
-  - Refresh the page to see the new status -->
-
-
 ### Send the powersave job to the  dynamic group
 
 
@@ -87,38 +63,6 @@ aws iot create-job \
 ```
 
 3. Hit Enter
-
-<!-- 
-Still on the **AWS IoT** console, on its home page:
-
-Under the IoT Home page, on the left menu:
-
-1. Click **Manage**
-2. Click **Jobs**
-3. Click **Create**
-  ![OpenConsole](/images/060_mgmt_dynamic5.png)
-4. Click **Create custom job**
-5. Type `TurnPowerSaveMode` as **Job ID**
-6. Type `My HighVibration Job` as **description**
-  ![OpenConsole](/images/060_mgmt_dynamic6.png)
-7. On **Select devices to update**, click **select**
-8. Click **Thing Groups**
-9. Select **HighVibration** group
-  ![OpenConsole](/images/060_mgmt_dynamic7.png)
-10. On **Add job file**, click **Select**
-11. Type `iotbucket` on the **filter**
-12. Select `<Stack>-iotbucket-<HASH>`
-    - Remember to select the bucket on your **region**
-13. Clear the `iotbucket` filter
-15. Select **job2_config.json**
-15. On **Job type** select **CONTINUOUS** option
-    - This will assure every new device that has high vibration reads will be included on the dynamic group, therefore executing this job eventually
-16. Click **Next**
-    ![OpenConsole](/images/060_mgmt_dynamic8.png)
-    ![OpenConsole](/images/060_mgmt_dynamic9.png)
-
-17. Accept the defaults for the fields
-18. Click **Create** -->
 
 ### Monitoring the job execution
 
