@@ -4,7 +4,7 @@ defaultContentLanguage = "en"
 title = "AWS IoT Device Defender Workshop"
 theme = "learn"
 uglyurls = true
-googleAnalytics = "G-Z8CD30SWK9"
+googleAnalytics = "G-TH7B03L81V"
 sectionPagesMenu = "main"
 relativeURLs = true
 

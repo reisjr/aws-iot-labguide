@@ -210,7 +210,7 @@ Your account has a virtual device factory that creates devices on demand. To cre
 1. Go to the root directory of the repository
 
 ```bash
-cd ~/environment/aws-iot-dd-builders-session
+cd ~/environment/aws-iot-dd-labcode
 ```
 
 1. Run the the following command to start a virtual device

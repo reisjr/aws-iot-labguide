@@ -67,7 +67,6 @@ Your workspace should now look like this
 
 ![c9after](/images/10_cloud9_env_setup_ready.png)
 
-
 {{% notice tip %}}
 You can choose a different theme by selecting **View / Themes** in the Cloud9 workspace menu.
 {{% /notice %}}
@@ -81,22 +80,22 @@ Follow the instructions below to complete the set up.
 * Clone the workshop github repository
 
 ```bash
-git clone https://github.com/reisjr/aws-iot-dd-builders-session.git
+git clone https://github.com/reisjr/aws-iot-dd-labcode.git
 ```
 
 ## Deploy the Container for Virtual Devices
 ---
 * Go to the root directory of the repository
 ```bash
-cd ~/environment/aws-iot-dd-builders-session
+cd ~/environment/aws-iot-dd-labcode
 ```
-
 * Install jq
 ```bash
 $ sudo yum install -y jq
 ```
 * Push the sample code to the pipeline
-```
+```bash
+$ export AWS_DEFAULT_REGION=<region-you-chose>
 $ ./scripts/push.sh
 ```
 
@@ -109,7 +108,7 @@ $ ./scripts/push.sh
 
 * Go to the cloned repository CDK directory
 ```bash
-cd aws-iot-dd-builders-session/iot-playground
+cd ~/environment/aws-iot-dd-labcode
 ```
 * Install the [Cloud Development Kit - CDK](https://docs.aws.amazon.com/pt_br/cdk/latest/guide/getting_started.html)
 ```bash
