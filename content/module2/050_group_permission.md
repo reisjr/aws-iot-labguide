@@ -12,12 +12,12 @@ You have a new request from the Marketing and Development department: They want 
 You need an additional security policy that allows the devices in the **SanFrancisco** location to listen to a new topic named `alexa/integration/<deviceName>`.<br>
  The device already has the code to process the command. 
 
-Attaching a policy to a group will allow every thing under this group or any things/groups bellow its hierarchy, to apply the policy permissions.
+Attaching a policy to a group will allow every thing under this group or any things/groups bellow its hierarchy, to inherit the policy permissions.
 
 ### Creating a new policy
 ___
 
-In this exercise, you will use a previously created policy file, *alexaPolicy.json* added on your Cloud9 environment.<br>
+In this exercise, you will use a previously created policy file, `alexaPolicy.json` added on your Cloud9 environment.<br>
 
 This policy allows the `subscribe` action to the new topic `alexa/integration/<device-name>`:
 

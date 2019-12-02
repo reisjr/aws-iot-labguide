@@ -9,10 +9,10 @@ weight: 61
 
 ### Applying proactive maintenance actions Your Fleet
 
-Your support team reports that some of the **smart air conditioning** devices are behaving incorrectly, showing signs of high vibration coming from its sensors reads, which could point out imminent equipment failure.<br>
+Your support team reported that some of the **smart air conditioning** devices are behaving incorrectly, showing signs of high vibration coming from its sensors reads, which could point out imminent equipment failure.<br>
 They are planning an emergency maintenance, however this could take sometime and it would be great to **remotely activate** the **powersave mode** on the devices. This powersave mode reduces the effectiveness of the **smart A/C**, but increases the lifetime of the A/C compressor, which could give some precious time for your field technicians to handle the service orders.
 
-As you already executed in the previous section, **AWS IoT Jobs** can help you to send the remote action to activate the powersave mode. However, you still don´t know how many devices has **high vibration** reads and even worst: How many will have this problem in a the future.
+As you already executed in the previous section, **AWS IoT Jobs** can help you to send the remote action to activate the powersave mode. However, you still don´t know how many devices has **high vibration** reads and even worse: How many will have this problem in a the future.
 
 That´s where **Dynamic Groups** comes into play. Dynamic thing groups update group membership through search queries. <br>
 Using dynamic thing groups, you can change the way you interact with things depending on their connectivity, registry, or shadow data. They are tied to your fleet indexing, so when you specify it as a target for a job, only things that meet the criteria that define the dynamic thing group query, will perform the job.

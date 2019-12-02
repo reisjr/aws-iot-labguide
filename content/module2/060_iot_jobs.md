@@ -14,7 +14,7 @@ The **smart air conditioner** is becoming a huge success. Your company is deploy
 
 As part of IoT Ops, you will manage devices globally and you will implement a change on the behavior of sensors to display the temperature in Celsius degrees, which is the temperature scale used in South America.  
 
-The development team already thought about this requirement and embedded the functionality in the sensor firmware. Your main challenge will be to deploy this new behavior at scale remotely, without compromise the device and lost is connectivity.
+The development team already thought about this requirement and embedded the functionality in the sensor firmware. Your main challenge will be to deploy this new behavior at scale remotely, without compromising the device and losing connectivity.
 
 To accomplish this task in a repeatable, reliable, controlled and auditable way, you will use **AWS IoT Jobs**. With AWS IoT Jobs, you can send remote actions to devices, such as software updates, reboots, factory resets, and security patches, etc.
 

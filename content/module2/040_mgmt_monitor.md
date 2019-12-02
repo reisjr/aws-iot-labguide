@@ -13,7 +13,7 @@ You can also leverage **Logging and Fine-grained Logging** when you organize you
 
 ### Monitoring and Applying Customized Policies on Your Fleet
 
-Your support team reports that some of your customers are opening trouble tickets complaining about a strange behavior on their devices. Only customers in the **NYC** location are being impacted. You want to enable a **DEBUG** log level to this group and start troubleshoot the issue. 
+Your support team reported that some of your customers are opening trouble tickets complaining about a strange behavior on their devices. Only customers in the **NYC** location are being impacted. You want to enable a **DEBUG** log level to this group and start troubleshoot the issue. 
  
 AWS IoT can send all progress events about each message as it passes from your devices through the message broker, device gateway, and the rules engine. 
 
@@ -102,7 +102,7 @@ Still on the **AWS IoT** console:
 7. Click **NYC** Group
   ![OpenConsole](/images/030_mgmt_monitor5.png)
 8. Click **Logs**
-9. Notice **Local logging settings** is disabled. Only Global settings is applied place right now.
+9. Notice **Local logging setting** is disabled. Only Global setting is applied place right now.
 10. Click **Edit**
 ![OpenConsole](/images/030_mgmt_monitor6.png)
 11. Choose **Debug (most verbose)** option
@@ -116,7 +116,7 @@ ___
 
 You can use the AWS Cloudwatch console to see the AWS ioT logs.
 
-Open the **Aamazon CloudWatch** console, if it is not already opened:
+Open the **Amazon CloudWatch** console, if it is not already opened:
 
 1. Type `cloudwatch` on the **Find Services**
 2. Click on **Cloudwatch** result

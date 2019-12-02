@@ -109,8 +109,8 @@ Open the AWS IoT Console:
     Under the thing detail page:
 8. Click **Details**
 9. Check its **Attributes** (Remember that your choosen thing might differ from the screenshot)
-    - Notice the **Serial Number**
-    - Notice the **verison**
+    - Notice the **serial number**
+    - Notice the **version**
     - Notice the **Location** 
         - You are going to use this info to add to the right thing group
         - These are static information added on thing creation time

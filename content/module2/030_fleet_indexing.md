@@ -43,7 +43,7 @@ Open the AWS IoT Console, if it is not already opened:
     ![OpenConsole](/images/020_mgmt_iot_console.png)
     Under the IoT Home page, on the left menu:
 3. Under **Manage** click **Things**
-4. Click **Search Thing** Field
+4. Click **Search Things** Field
 5. Click **Search** under **Locate or identify specific devices**
 {{% notice tip %}}
 If the **Advanced Search Fleet Indexing** screen doesn't show up, try refresh the page
