@@ -20,6 +20,12 @@ the Cloud9 domain, or connecting to the workspace might be impacted.
 Cloud9 requires third-party-cookies. You can whitelist the [specific domains](https://docs.aws.amazon.com/cloud9/latest/user-guide/troubleshooting.html#troubleshooting-env-loading).
 {{% /notice %}}
 
+## Getting the Console Link
+
+For re:invent, you will receive an account to execute the labs.
+
+[Click here](https://gist.github.com/reisjr/e4efe6063691b811122e0e88fc470fe3) to get the link.
+
 ## Launch AWS Cloud9 in your Closest Region
 
 The Cloud9 environment will simplify the execution of different steps on this workshop. Available regions:

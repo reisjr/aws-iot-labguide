@@ -26,23 +26,23 @@ AWS IoT Defender Mitigation actions is a feature to set up and handle Findings w
 You need to configure the Mitigation action you want to offer to your operator. You can do this following steps:
 
 1. Open the AWS IoT console
-2. In the left navigation pane, choose **Defend**, and then choose **Mitigation actions**
-3. Choose **Create** 
+1. In the left navigation pane, choose **Defend**, and then choose **Mitigation actions**
+1. Choose **Create** 
 ![MitigationActionsSetup](/images/20_workshop_mitigation_02.png)
-3. For **Name**, type `EnableErrorLoggingAction`
-4. For **Action type**, click **Enable IoT logging**
+1. For **Name**, type `EnableErrorLoggingAction`
+1. For **Action type**, click **Enable IoT logging**
 ![MitigationActionsSetup](/images/20_workshop_mitigation_03.png)
-5. Choose **Create Role**
+1. Choose **Create Role**
 ![MitigationActionsSetup](/images/20_workshop_mitigation_04.png)
-6. For **Name**, type `IoTMitigationActionErrorLogging_Role`
-7. Choose **Create role**
+1. For **Name**, type `IoTMitigationActionErrorLogging_Role`
+1. Choose **Create role**
 ![MitigationActionsSetup](/images/20_workshop_mitigation_05.png)
-8. Confirm the Role you created is presented in **Action execution role**
+1. Confirm the Role you created is presented in **Action execution role**
 
 You need to define the parameters for this *Mitigation action*.
 
 1. On the Parameters session, locate the **Role for logging** field and choose **Select**
-1. Find the Role `AWSIoTLogging_Role` and choose **Select**
+1. Find the Role containing `AWSIoTLogging_Role` in the name and choose **Select**
 {{% notice info %}}
 The `AWSIoTLogging_Role`was created during the preparation step.
 {{% /notice %}}
@@ -115,9 +115,9 @@ It may take a few minutes to finish the *Mitigation action*.
 After completing the Action task, you can check if AWS IoT Device Defender Audit changed the Logging level to `ERROR`.
 
 1. Open the AWS IoT console
-2. In the left navigation pane, choose **Settings**
-3. Check that the Logs are `ENABLED`
-3. Check that the **Level of verbosity** is `Error`
+1. In the left navigation pane, choose **Settings**
+1. Check that the Logs are `ENABLED`
+1. Check that the **Level of verbosity** is `Error`
 
 ![MitigationActions1](/images/20_workshop_mitigation_act_05.png)
 
