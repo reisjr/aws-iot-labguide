@@ -22,9 +22,9 @@ disableAssetsBusting = false
 disableLanguageSwitchingButton = true
 disableShortcutsTitle=false
 disableInlineCopyToClipBoard = true
-ghrepo = "TBD"
+ghrepo = "https://github.com/reisjr/aws-iot-dd-labcode"
 branch = "master"
-template_bucket = "eksworkshop.com"
+template_bucket = "gobuild.today"
 pygmentsUseClasses = true
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
@@ -52,8 +52,8 @@ url = "/authors.html"
 weight = 20
 
 [[menu.shortcuts]]
-name = "<i class='fab fa-github'></i> GitHub Project"
-url = "https://github.com/TBD"
+name = "<i class='fab fa-github'></i> IoT Dev Defender - Github"
+url = "https://github.com/reisjr/aws-iot-dd-labcode"
 weight = 30
 
 [[menu.shortcuts]]
@@ -63,7 +63,7 @@ weight = 30
 
 [[menu.shortcuts]]
 name = "<i class='fas fa-envelope'></i> Have questions?"
-url = "mailto:awsiotddworkshop@amazon.com"
+url = "mailto:aws-iot-dg-workshop@amazon.com"
 weight = 40
 
 [deployment]
