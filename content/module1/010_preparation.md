@@ -99,7 +99,7 @@ cd ~/environment/aws-iot-dd-labcode
 ```bash
 $ sudo yum install -y jq
 ```
-* Push the sample code to the pipeline
+* Push the sample code to the pipeline ** WARNING: the push command requires the resources specified in the CDK step to be already created!
 ```bash
 $ export AWS_DEFAULT_REGION=<region-you-chose>
 $ ./scripts/push.sh
@@ -114,17 +114,16 @@ $ ./scripts/push.sh
 
 * Go to the cloned repository CDK directory
 ```bash
-cd ~/environment/aws-iot-dd-labcode
+cd ~/environment/aws-iot-dd-labcode/iot-playground
 ```
-* Install the [Cloud Development Kit - CDK](https://docs.aws.amazon.com/pt_br/cdk/latest/guide/getting_started.html)
+* Install the [Cloud Development Kit - CDK](https://docs.aws.amazon.com/pt_br/cdk/latest/guide/getting_started.html) requirements
 ```bash
-npm install -g aws-cdk
 sudo pip-3.6 install -r requirements.txt
 ```
 
 * Deploy the CDK stack
 ```bash
-$ cdk deploy
+$ cdk deploy devicedefender iot-playground codepipeline -f
 ```
 
 
