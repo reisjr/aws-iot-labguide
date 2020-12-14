@@ -15,14 +15,14 @@ hrefTargetBlank = true
 editURL = "https://github.com/reisjr/aws-iot-labguide/tree/master/content/"
 themeVariant = "mine"
 showVisitedLinks = false
-author = "David Reis, Giovani Bassan"
+author = "David Reis, Giovani Bassan, Massimo Sporchia"
 description = "AWS IoT Builders Workshop"
 disableSearch = false
 disableAssetsBusting = false
 disableLanguageSwitchingButton = true
 disableShortcutsTitle=false
 disableInlineCopyToClipBoard = true
-ghrepo = "https://github.com/reisjr/aws-iot-dd-labcode"
+ghrepo = "https://github.com/reisjr/aws-iot-playground"
 branch = "master"
 template_bucket = "gobuild.today"
 pygmentsUseClasses = true
@@ -53,7 +53,7 @@ weight = 20
 
 [[menu.shortcuts]]
 name = "<i class='fab fa-github'></i> IoT Dev Defender - Github"
-url = "https://github.com/reisjr/aws-iot-dd-labcode"
+url = "https://github.com/reisjr/aws-iot-playground"
 weight = 30
 
 [[menu.shortcuts]]
