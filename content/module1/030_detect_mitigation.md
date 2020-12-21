@@ -210,13 +210,13 @@ Your account has a virtual device factory that creates devices on demand. To cre
 1. Go to the root directory of the repository
 
 ```bash
-cd ~/environment/aws-iot-dd-labcode
+cd ~/environment/aws-iot-playground
 ```
 
 1. Run the the following command to start a virtual device
 
 ```bash
-./scripts/create_device.sh
+./scripts/cp-create-thing.sh generic
 ```
 
 This will start a virtual device that sends 30 messages every 5 minutes. After a 5 minutes, Device Defender should identify this anomalous behavior and send 

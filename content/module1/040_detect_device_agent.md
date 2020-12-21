@@ -55,7 +55,9 @@ To create a **Security Profile**, follow the steps below, which are similiar to 
 * Open the AWS IoT console
 * In the left navigation pane, choose **Defend**
 * In the left navigation pane, choose **Detect**
-* Click **Create**
+* In the left navigation pane, choose **Security profiles**
+* Click **Create Security Profile**
+* Click **Create Rule-based anomaly Detect profile**
 ![CreateSecProf](/images/30_ddd_create_secprof_01_pt1.png)
 
 In this section, you will specify the behavior that you want to monitor. For this lab, we'll want to keep track of the amount of Outbound Bytes our devices network cards send. 
@@ -73,7 +75,7 @@ For more information, you can check out this awesome blog post by Eknath: [Use A
 * Scroll to the **Behaviors** section
 * Fill the **Name** field for the first *Behavior*. Example: `OutboundBytesBehavior`
 * On the **Metric** field, choose **Bytes out**
-* On the **Operator** field, choose **More than**
+* On the **Operator** field, choose **Greater than**
 * On the **Value** field, type **35.000**
 * On the **Duration** field, choose **5 minutes**
 * Scroll down to finish the setup
@@ -102,9 +104,8 @@ On the next screen, you need to select which devices AWS IoT Device Defender Det
 * Choose **All things** 
 * Click **Next** on the bottom right
 * Scroll down and choose **Save**
-![CreateSecProf](/images/30_ddd_create_secprof_05_pt2.png)
 * Choose **Continue** to finish the setup
-![CreateSecProf](/images/30_ddd_create_secprof_06_pt2.png)
+![CreateSecProf](/images/30_ddd_create_secprof_04_pt2.png)
 
 Now, AWS IoT Device Defender is continuosly monitoring the amount of messages sent by each device. Let's check what happens when a thing starts to present an anomalous behavior.
 
