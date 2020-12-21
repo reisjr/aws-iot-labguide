@@ -34,6 +34,7 @@ The Cloud9 environment will simplify the execution of different steps on this wo
  -------------  | -------------
   **Virginia** | [Click here - https://us-east-1.console.aws.amazon.com/cloud9/home?region=us-east-1](https://us-east-1.console.aws.amazon.com/cloud9/home?region=us-east-1)
   **Oregon**   | [Click here - https://us-east-1.console.aws.amazon.com/cloud9/home?region=us-west-2](https://us-west-2.console.aws.amazon.com/cloud9/home?region=us-west-2)
+  **Ireland**   | [Click here - https://eu-west-1.console.aws.amazon.com/cloud9/home?region=eu-west-1](https://eu-west-1.console.aws.amazon.com/cloud9/home?region=eu-west-1)
 
 To launch the environment, after opening one of the URLs above, follow the instructions:
 
@@ -86,14 +87,14 @@ Follow the instructions below to complete the set up.
 * Clone the workshop github repository
 
 ```bash
-git clone https://github.com/reisjr/aws-iot-dd-labcode.git
+git clone https://github.com/reisjr/aws-iot-playground.git
 ```
 
 ## Deploy the Container for Virtual Devices
 ---
 * Go to the root directory of the repository
 ```bash
-cd ~/environment/aws-iot-dd-labcode
+cd ~/environment/aws-iot-playground
 ```
 * Install jq
 ```bash
@@ -114,7 +115,7 @@ $ ./scripts/push.sh
 
 * Go to the cloned repository CDK directory
 ```bash
-cd ~/environment/aws-iot-dd-labcode/iot-playground
+cd ~/environment/aws-iot-playground
 ```
 * Install the [Cloud Development Kit - CDK](https://docs.aws.amazon.com/pt_br/cdk/latest/guide/getting_started.html) requirements
 ```bash
@@ -123,7 +124,8 @@ sudo pip-3.6 install -r requirements.txt
 
 * Deploy the CDK stack
 ```bash
-$ cdk deploy devicedefender iot-playground codepipeline -f
+$ make create-cdk-env
+$ make deploy-stack
 ```
 
 
